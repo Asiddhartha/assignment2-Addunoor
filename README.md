@@ -51,3 +51,46 @@ As Osho and Eddie Mumford said:
 >Money is a tool, so I don't have to be.
 
 ---
+## Code Fencing
+
+Area of triangle from **Geometry  Elementary/Polygons**
+
+>The area formula is derived by taking each edge AB, and calculating the area of triangle ABO with a vertex at the origin O, by taking the cross-product (which gives the area of a parallelogram) and dividing by 2.
+>As one wraps around the polygon, these triangles with positive and negative area will overlap, and the areas between the origin and the polygon will be cancelled out and sum to 0, while only the area inside the reference triangle remains.
+>This is why the formula is called the surveyor's formula, since the "surveyor" is at the origin; if going counterclockwise, positive area is added when going from left to right and negative area is added when going from right to left, from the perspective of the origin.
+
+Geometry  Elementary/Polygons [Refernce_link](https://en.wikipedia.org/wiki/Shoelace_formula)
+
+code for Geometry  Elementary/Polygons
+
+```
+int signed_area_parallelogram(point2d p1, point2d p2, point2d p3) {
+    return cross(p2 - p1, p3 - p2);
+}
+
+double triangle_area(point2d p1, point2d p2, point2d p3) {
+    return abs(signed_area_parallelogram(p1, p2, p3)) / 2.0;
+}
+
+bool clockwise(point2d p1, point2d p2, point2d p3) {
+    return signed_area_parallelogram(p1, p2, p3) < 0;
+}
+
+bool counter_clockwise(point2d p1, point2d p2, point2d p3) {
+    return signed_area_parallelogram(p1, p2, p3) > 0;
+}
+```
+
+Geometry  Elementary/Polygons [Code_link](https://en.wikipedia.org/wiki/Shoelace_formula)
+
+
+
+
+
+
+
+
+
+
+
+
