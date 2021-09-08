@@ -28,3 +28,18 @@ Hyderabad is the capital and largest city of the South Indian state of **Telanga
 
 [Aboutme](AboutMe.md)
 
+---
+# Food Table
+
+This table shows location and Amount of Foods.
+
+| *Food*                | *Location*      | *Amount*         |
+| ----------------------- | ----------------- | ------------------ |
+| Pizza                   | Chennai           | 300 INR            |
+| Chicken burger          | Missouri          | 3.49 $             |
+| Pani puri               | Delhi             | 40 INR             |
+| Biryani                 | Hyderabad         | 200 INR            |
+
+---
+
+
