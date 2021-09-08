@@ -42,4 +42,12 @@ This table shows location and Amount of Foods.
 
 ---
 
+## Pithy Quotes
 
+As Osho and Eddie Mumford said:
+
+>Nobody reaches anywhere by believing.
+
+>Money is a tool, so I don't have to be.
+
+---
